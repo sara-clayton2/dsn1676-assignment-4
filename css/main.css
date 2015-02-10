@@ -1,0 +1,29 @@
+
+  dt {
+    float: left;
+    clear: left;
+    text-align: right;
+    font-weight: bold;
+    color:#36BCB0;
+    text-transform: uppercase;
+
+  }
+
+  dd {
+    margin: 0 0 0 180px;
+    padding: .5em .5em .5em .5em;
+    background-color: #36BCB0;
+    color: white;
+  }
+
+.title { 
+    color:#36BCB0;
+    text-align:center;
+    text-transform: uppercase;
+} 
+
+dd:nth-of-type(even) {
+    background-color: #36BCB0;
+    opacity: 0.4;
+}
+

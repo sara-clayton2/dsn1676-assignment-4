@@ -25,9 +25,9 @@ var redcurrant = {
     protein: '1.4 g'
 }; 
 
-var berry = [blueberries, grapes, redcurrant]; 
- 
-berry.forEach(function (item) { 
+
+var writeBerries = function (allBerries) { 
+ allBerries.forEach(function (item) { 
     document.write('<dl>');
     
     document.write('<dt>name:</dt>');
@@ -48,6 +48,9 @@ berry.forEach(function (item) {
     document.write('<dt>protein:</dt>');
     document.write('<dd>' + item.protein + '</dd>');
     
-    
     document.write('</dl>');
 }); 
+
+}; 
+
+writeBerries ( [blueberries, grapes, redcurrant] ); 
